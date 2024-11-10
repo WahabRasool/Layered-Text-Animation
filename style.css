@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap");
+body {
+  background: linear-gradient(#222 51%, #111 53%);
+  color: #fff;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  font-family: 'Orbitron';
+}
+span {
+  position: relative;
+  font-size: 156px;
+  -webkit-box-reflect: below -25px linear-gradient(transparent 35%, rgba(0,0,0,0.25));
+}
+.t0 {
+  position: relative;
+  color: #111;
+  -webkit-text-stroke: 2px #0f0;
+  z-index: 3;
+}
+.t1 {
+  position: absolute;
+  color: transparent;
+  -webkit-text-stroke: 2px #00f;
+  z-index: 2;
+  animation: move 5s ease infinite alternate;
+}
+.t2 {
+  content: 'CODEPEN';
+  position: absolute;
+  color: transparent;
+  -webkit-text-stroke: 2px #f00;
+  z-index: 1;
+  animation: move-reverse 5s ease infinite alternate;
+}
+@-moz-keyframes move {
+  0%, 100% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(-5px, -5px);
+  }
+  50% {
+    transform: translate(5px, -5px);
+  }
+  75% {
+    transform: translate(-5px, 5px);
+  }
+}
+@-webkit-keyframes move {
+  0%, 100% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(-5px, -5px);
+  }
+  50% {
+    transform: translate(5px, -5px);
+  }
+  75% {
+    transform: translate(-5px, 5px);
+  }
+}
+@-o-keyframes move {
+  0%, 100% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(-5px, -5px);
+  }
+  50% {
+    transform: translate(5px, -5px);
+  }
+  75% {
+    transform: translate(-5px, 5px);
+  }
+}
+@keyframes move {
+  0%, 100% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(-5px, -5px);
+  }
+  50% {
+    transform: translate(5px, -5px);
+  }
+  75% {
+    transform: translate(-5px, 5px);
+  }
+}
+@-moz-keyframes move-reverse {
+  0%, 100% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(5px, 5px);
+  }
+  50% {
+    transform: translate(-5px, 5px);
+  }
+  75% {
+    transform: translate(5px, -5px);
+  }
+}
+@-webkit-keyframes move-reverse {
+  0%, 100% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(5px, 5px);
+  }
+  50% {
+    transform: translate(-5px, 5px);
+  }
+  75% {
+    transform: translate(5px, -5px);
+  }
+}
+@-o-keyframes move-reverse {
+  0%, 100% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(5px, 5px);
+  }
+  50% {
+    transform: translate(-5px, 5px);
+  }
+  75% {
+    transform: translate(5px, -5px);
+  }
+}
+@keyframes move-reverse {
+  0%, 100% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(5px, 5px);
+  }
+  50% {
+    transform: translate(-5px, 5px);
+  }
+  75% {
+    transform: translate(5px, -5px);
+  }
+}
